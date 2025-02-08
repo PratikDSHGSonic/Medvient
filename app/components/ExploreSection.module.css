@@ -1,0 +1,62 @@
+/* ExploreSection.module.css */
+
+.MainContainer .desktop-view {
+    display: block;
+  }
+  
+  .MainContainer .mobile-view {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .MainContainer .desktop-view {
+      display: none;
+    }
+    .MainContainer .mobile-view {
+      display: block;
+    }
+  }
+  
+  .Section {
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+    padding: 8rem 12rem;
+    gap: 8rem;
+  }
+  
+  @media (max-width: 1024px) {
+    .Section {
+      padding: 4rem 6rem;
+      gap: 4rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .Section {
+      flex-direction: column;
+      padding: 4rem 2rem;
+      gap: 3rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Section {
+      padding: 2rem 1rem;
+    }
+  }
+  
+  .MobileSection {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .MobileSection {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+  }
+  
