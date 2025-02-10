@@ -25,6 +25,6 @@ export default function Home() {
 }
 
 export const metadata = {
-  title: 'Medvient',
-  description: 'Medvient',
+  title: 'DSHGSonic',
+  description: 'DSHGSonic',
 }
