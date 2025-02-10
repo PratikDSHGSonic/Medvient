@@ -9,6 +9,7 @@ const nextConfig = {
   // swcMinify: true,
   transpilePackages: ['three'],
   images: {
+    
     remotePatterns: [
       {
         protocol: 'https',

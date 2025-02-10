@@ -144,7 +144,7 @@ const Footer = () => {
       <div className={styles.bottomSection}>
         <div className={styles.bottomContainer}>
           <div className={styles.logo}>
-            <Image src="/Alternate Logo Option for White Background.png" width={120} height={24} alt="Medvient" />
+            <Image src="/dshg-logo1.png" width={120} height={24} alt="DSHGSonic" />
           </div>
           <div className={styles.bottomLinks}>
             <span>All Content Copyright 2025</span>

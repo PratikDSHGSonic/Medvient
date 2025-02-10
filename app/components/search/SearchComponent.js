@@ -860,8 +860,8 @@ const SearchComponent = () => {
     const animate = () => {
       requestAnimationFrame(animate);
       const time = performance.now() * 0.001;
-      material.uniforms.time.value = time * 0.08; // Reduced from 0.12 to 0.08 for slower rotation
-      sphere.rotation.y = -time * 0.03; // Reduced from 0.05 to 0.03 for slower rotation
+      material.uniforms.time.value = time * 0.16; // Reduced from 0.12 to 0.08 for slower rotation
+      sphere.rotation.y = -time * 0.13; // Reduced from 0.05 to 0.03 for slower rotation
       renderer.render(scene, camera);
     };
 
